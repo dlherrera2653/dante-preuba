@@ -19,3 +19,10 @@
 // Output: Suficiente
 // Output: Número erróneo
 // Output: Introduce un número válido
+
+let num,alguien = 
+(num = parseInt(prompt('ingrese un numero')));
+
+while (condition) {
+    
+}
