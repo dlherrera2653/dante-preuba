@@ -7,8 +7,9 @@
 // 8-9: Notable
 // 10: Sobresaliente
 
-// Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje de “número erróneo”. Si el número ingresado no es válido mostrar el mensaje “Introduce un número válido”.
+// Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje de “número erróneo”. Si el número ingresado no es válido mostrar
 
+//el mensaje “Introduce un número válido”.
 // Ejemplo:
 
 
@@ -20,9 +21,22 @@
 // Output: Número erróneo
 // Output: Introduce un número válido
 
-let num,alguien = 
-(num = parseInt(prompt('ingrese un numero')));
+let nota = parseInt(prompt(' ingrese una nota:'));
+if (nota >= 0 && 2 >= nota) {
+    alert('muy deficiente')
 
-while (condition) {
-    
+} else if (nota >= 3 && 4 >= nota) {
+    alert(`Insuficente`)
+} else if (nota >= 5 && 6 >= nota) {
+    alert(`Suficiente`)
+} else if (nota >= 7 && 7>= nota) {
+    alert(`bien`)
+} else if (nota >= 8 && 9 >= nota) {
+    alert(`notable`)
+} else if (nota >= 10 && 10 >= nota) {
+    alert(`Sobrasaliente `)
+} else if (nota >= 11 ){
+    alert('número erróneo')
+}else{
+    alert('introduce un número valido')
 }
